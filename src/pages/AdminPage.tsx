@@ -176,7 +176,7 @@ export function AdminPage() {
               <FileText size={18} />
             </div>
             <div>
-              <h1 className="text-sm font-semibold text-slate-900">{document.title}</h1>
+              <h1 className="text-sm font-semibold text-slate-900">{docMeta.title}</h1>
               <p className="text-xs text-slate-500">审阅管理后台</p>
             </div>
           </div>
